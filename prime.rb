@@ -5,5 +5,4 @@ def prime?(integer)
   binding.pry
 end
 
-prime?(10)
 binding.pry
