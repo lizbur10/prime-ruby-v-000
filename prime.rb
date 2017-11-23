@@ -8,8 +8,8 @@ def prime?(integer)
   end
   array.each do | divisor |
     if integer % divisor == 0
-      return true
+      return false
     end
   end
-  false
+  true
 end
