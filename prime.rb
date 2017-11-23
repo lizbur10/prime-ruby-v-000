@@ -11,7 +11,5 @@ def prime?(integer)
       return true
     end
     return false
-#  binding.pry
+  end
 end
-
-#binding.pry
