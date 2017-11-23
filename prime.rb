@@ -6,6 +6,11 @@ def prime?(integer)
   elsif integer < 0
     array = (integer..-2).to_a
   end
+  array.each do | divisor |
+    if integer % divisor == 0
+      return true
+    end
+    return false
 #  binding.pry
 end
 
