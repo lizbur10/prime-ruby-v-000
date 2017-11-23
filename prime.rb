@@ -6,7 +6,7 @@ def prime?(integer)
   elsif integer < 0
     array = (integer..-2).to_a
   end
-  binding.pry
+#  binding.pry
 end
 
-binding.pry
+#binding.pry
